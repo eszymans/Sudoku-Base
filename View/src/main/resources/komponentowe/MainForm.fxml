@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="komponentowe.MainFormController">
+   <children>
+      <ComboBox fx:id="languageComboBox" prefWidth="150.0" promptText="Language" />
+      <Label fx:id="chooseDifficulty" alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" prefHeight="78.0" prefWidth="831.0" text="%chooseDifficulty" textAlignment="CENTER">
+         <font>
+            <Font name="Candara Light" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="easyButton" mnemonicParsing="false" onAction="#handleEasy" prefHeight="45.0" prefWidth="697.0" text="%easyButton">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="mediumButton" mnemonicParsing="false" onAction="#handleMedium" prefHeight="45.0" prefWidth="697.0" text="%mediumButton">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="hardButton" mnemonicParsing="false" onAction="#handleHard" prefHeight="45.0" prefWidth="697.0" text="%hardButton">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
